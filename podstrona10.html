@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang=pl>
+<head>
+    <title>Galeria zdjęć</title>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=stylesheet type=text/css href=style.css>
+</head>
+<body>
+
+<script src="skrypt.js"> </script>
+
+<div class="sekcja">
+    <div class="row">
+        <div class="column">
+          <img src="foto/hagiasmall.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Hagia-Sophia">
+        </div>
+        <div class="column">
+          <img src="foto/bluemeczetsmall.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Błękitny Meczet w Stambule">
+        </div>
+        <div class="column">
+          <img src="foto/bransmall.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Zamek Bran">
+        </div>
+        <div class="column">
+          <img src="foto/florencjasmall.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Florencja">
+        </div>
+        <div class="column">
+            <img src="foto/wenecjasmall.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Wenecja">
+          </div>
+          <div class="column">
+            <img src="foto/paryzsmall.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Paryż">
+          </div>
+          <div class="column">
+            <img src="foto/wersalsmall.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="Wersal">
+          </div>
+      </div>
+      
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 7</div>
+            <img src="foto/hagia.jpg" style="width:100%" alt="Hagia-Sophia">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 7</div>
+            <img src="foto/bluemeczet.jpeg" style="width:100%" alt="Błękitny Meczet w Stambule">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 7</div>
+            <img src="foto/bran.jpg" style="width:100%" alt="Zamek Bran">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 7</div>
+            <img src="foto/florencja.jpg" style="width:100%" alt="Florencja">
+          </div>
+    
+          <div class="mySlides">
+            <div class="numbertext">5 / 7</div>
+            <img src="foto/wenecja.jpg" style="width:100%" alt="Wenecja">
+          </div>
+    
+          <div class="mySlides">
+            <div class="numbertext">6 / 7</div>
+            <img src="foto/paryz.jpg" style="width:100%" alt="Paryż">
+          </div>
+    
+          <div class="mySlides">
+            <div class="numbertext">7 / 7</div>
+            <img src="foto/wersal.webp" style="width:100%" alt="Wersal">
+          </div>
+      
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+         
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          
+          <div class="column">
+            <img class="demo" src="foto/hagiasmall2.jpg" onclick="currentSlide(1)" alt="Hagia-Sophia">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="foto/bluemeczetsmall2.jpg" onclick="currentSlide(2)" alt="Błękitny Meczet w Stambule">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="foto/bransmall2.jpg" onclick="currentSlide(3)" alt="Zamek Bran">
+          </div>
+      
+          <div class="column">
+            <img class="demo" src="foto/florencjasmall2.jpg" onclick="currentSlide(4)" alt="Florencja">
+          </div>
+    
+          <div class="column">
+            <img class="demo" src="foto/wenecjasmall2.jpg" onclick="currentSlide(5)" alt="Wenecja">
+          </div>
+    
+          <div class="column">
+            <img class="demo" src="foto/paryzsmall2.jpg" onclick="currentSlide(6)" alt="Paryż">
+          </div>
+    
+          <div class="column">
+            <img class="demo" src="foto/wersalsmall2.jpg" onclick="currentSlide(7)" alt="Wersal">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
