@@ -1,6 +1,6 @@
 .logo{ background-image: linear-gradient(to right, black, gray, lightgray, gray, black);height: 10vh;text-align: center; }
 .logo .naglowek {display: inline-block;}
-.menu{background-color:grey; height: 80vh; width: 26vw; float: right;}
+.menu{background-color:grey; height: 80vh; width: 26vw; float: left;}
 .tresc{background-color:#6495ED;height: 80vh; width: 74vw; float: right;}
 .stopka{background-image: linear-gradient(to right, black, gray, lightgray, gray, black);height: 10vh;clear: both; text-align: center;}
 div{font-family: 'Times New Roman', Times, serif;font-size: large;}
